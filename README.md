@@ -310,15 +310,14 @@ Name | Description
 `key_vault_private_endpoint_ip_addresses`|Key Vault private endpoint IPv4 Addresses
 `key_vault_private_endpoint_fqdn`|Key Vault private endpoint FQDN Addresses
 
+Note if you wish to use Azure Vault with AKS you will have to use CSI-drivers but there are better ways to implement this like akv2k8s, though its not offical MS soultion. 
+
 ## Resource Graph
 
 ![Resource Graph](graph.png)
-
-## Authors
-
-Originally created by [Kumaraswamy Vithanala](mailto:kumarvna@gmail.com)
 
 ## Other resources
 
 * [Azure Key Vault documentation (Azure Documentation)](https://docs.microsoft.com/en-us/azure/key-vault/)
 * [Terraform AzureRM Provider Documentation](https://www.terraform.io/docs/providers/azurerm/index.html)
+
